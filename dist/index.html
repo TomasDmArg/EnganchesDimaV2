@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enganches Dima - Sitio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="header__nav"><i class="uil uil-times nav-icons"></i><i class="uil uil-bars nav-icons"></i>
+        <ul class="nav__ul">
+          <li class="nav__ul--item" id="logo"><img src="https://tmdm.com.ar/u/logo-new.png" alt="Logo"></li>
+          <li class="nav__ul--item"><a href="./index.html">Inicio</a></li>
+          <li class="nav__ul--item"><a href="./index.html#about-us">Acerca de nosotros</a></li>
+          <li class="nav__ul--item"><a href="./productos.html">Productos</a></li>
+          <li class="nav__ul--item"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main"><img class="circle" src="https://tmdm.com.ar/u/edima-bg-circle.svg" alt="bg-effect">
+      <div class="cr-2"></div>
+      <section class="landing">
+        <div class="sm-card">Desde 1969</div>
+        <h1 class="main__section--title">Enganches <br> DIMA</h1>
+        <p class="main__section--text">
+          Enganches para todas las marcas y modelos,trailers, y algunos trabajos de tornería. 
+          Reservas un turno y en 1hr se coloca. 
+          <br> Nuestro correo: <b>info@enganchesdima.com.ar</b>
+          <br> Whatsapp / Teléfono: <b> + 54 223 538-8441</b>
+        </p><a class="main__section--button" id="quotation">Pedir presupuesto</a><a class="main__section--button-sec" href="#about-us">Ver mas</a>
+        <section class="quotation">
+          <form class="quotation-form" action="http://enganchesdima.com.ar/send.php" method="POST">
+            <div class="step-one">
+              <h2 class="quotation__title">Indique su vehículo</h2>
+              <input class="quotation__input" type="text" name="model" id="model" placeholder="Marca, modelo y año; Ej. Chevrolet Cruze 2020"><a id="next">Siguiente <i class="uil uil-arrow-right"></i></a>
+            </div>
+            <div class="step-two">
+              <h2 class="quotation__title">¿Cómo prefiere que lo contactemos?</h2>
+              <div class="quotation__button" id="email"><i class="uil uil-at"></i>
+                <p class="quotation__button--text">Correo</p>
+              </div>
+              <div class="quotation__button" id="wp"> <i class="uil uil-whatsapp-alt"> </i>
+                <p class="quotation__button--text">Whatsapp</p>
+              </div>
+            </div>
+            <div class="step-three">
+              <h2 class="quotation__title" id="email-title">Ingrese su correo</h2>
+              <input class="quotation__input" type="email" name="info" placeholder="gmail/hotmail/yahoo/otros Ej. nombre@gmail.com"><div class="g-recaptcha" data-sitekey="6LdH-vUdAAAAAFYN1A59yUQO9Uj_QZNt5G0cml1a"></div>
+              <button type="submit" id="send">Enviar</button>
+            </div><a id="quit">Cancelar/Salir <i class="uil uil-times"></i></a>
+          </form>
+        </section><img class="arrow" src="assets/arrow.svg" alt="flecha hacia abajo">
+        <section class="images">
+          <div class="wrp"><img class="taller img active" src="assets/taller.jpg" alt="Enganches Dima - Taller" id="img1"><img class="taller-side img sec" src="assets/enganche.jpg" alt="Enganches Dima - Enganche" id="img2"><img class="r-arrow" src="assets/right-arrow.svg" alt="Flecha para cambiar de imagen">
+            <div class="dots"></div>
+          </div>
+        </section>
+        <section class="covid">
+          <p class="covid__text">
+            <b> Nuestras medidas ante el COVID-19: </b> <br>Tomamos la mayor cantidad de recaudos posibles 
+            para garantizar la seguridad del cliente. 
+            Solo se realizan y colocan los enganches con turno. 
+            Se requiere ingreso con barbijo 
+          </p>
+        </section>
+      </section>
+      <section class="aboutus" id="about-us">
+        <h2 class="main__section--title">¿Qué hacemos?</h2>
+        <p class="main__section--text-2">
+          Realizamos enganches para Autos/Pickup y 4x4de todas las marcas y modelos (Aceptamos tarjetas de crédito 
+          y débito). <br><br>
+          Utilizamos materiales de exelente calidad que te aseguran
+          que el enganche va a durar por muchisimo tiempo y está diseñado
+          de tal forma que garantiza total seguridad a la hora usar un 
+          trailer. <br><br>
+          Reservá un turno, y colocamos el enganche en 1 hora!!! <br><br>
+          Aceptamos tarjetas de crédito y débito en 1 pago
+        </p><img class="enganche" src="assets/enganche.jpg" alt="Enganche">
+      </section>
+      <section class="address">
+        <h2 class="main__section--title">Dirección</h2>
+        <p class="main__section--text-2">
+          El Cano 7982, Mar del Plata, Buenos Aires - Argentina <br> <br>
+          Horarios de atención:  <br>
+          <b> Lunes a Viernes: </b> 9:00 - 18:00 <br>
+          <b> Sábado y Domingo: </b> Cerrado <br>
+          <b> Feriados: </b> Consultar <br>
+        </p><a class="main__section--button" href="#">Ver indicaciones</a><a class="main__section--button-sec" href="#">Street view</a><div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=es&amp;q=Enganches DIMA&amp;t=h&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer--title">Contacto.</h2>
+      <p class="footer--text">
+        Telefono: +54 223 538-8441 <br>Dirección: El Cano 7982, Mar del Plata, Bs As <br>
+        Correo: info@enganchesdima.com.ar <br>
+      </p>
+      <h3 class="footer--by">Sitio web por: </h3><a href="https://www.tmdm.com.ar">TMDM (tmdm.com.ar)</a>
+    </footer><script async defer src="main.js" type="module"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Enganches Dima - Sitio Web
+        link(rel="stylesheet", href="style.css")
+        link(rel="stylesheet", href="https://unicons.iconscout.com/release/v4.0.0/css/line.css")
+    body.body
+        include navbar.pug
+        main.main
+            img(src="https://tmdm.com.ar/u/edima-bg-circle.svg", alt="bg-effect").circle
+            //- img(src="https://tmdm.com.ar/u/edima-bg-circle.svg", alt="bg-effect").circle.cr-2
+            div.cr-2
+            section.landing
+                h1.main__section--title Contacto
+                p.main__section--text Podes contactarnos a traves de los siguientes medios <br>
+                    | <b>Telefono fijo:</b> +54 (223) 481-4151 <br>
+                    | <b>Whatsapp / Telefono celular:</b> +54 (223) 538-8441 <br>
+                    | <b>Correo electrónico:</b> info@enganchesdima.com.ar <br>
+                    | O puede concurrir al taller, cuya <b>dirección</b> es: <br>
+                    | El Cano 7982 (El Cano y Magnasco), B7600 Mar del Plata, Buenos Aires, Argentina
+        include footerAndScripts.pug

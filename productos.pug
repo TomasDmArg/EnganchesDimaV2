@@ -1,0 +1,41 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Enganches Dima - Sitio Web
+        link(rel="stylesheet", href="style.css")
+        link(rel="stylesheet", href="https://unicons.iconscout.com/release/v4.0.0/css/line.css")
+    body.body
+        include navbar.pug
+        main.main
+            img(src="https://tmdm.com.ar/u/edima-bg-circle.svg", alt="bg-effect").circle
+            //- img(src="https://tmdm.com.ar/u/edima-bg-circle.svg", alt="bg-effect").circle.cr-2
+            div.cr-2
+            section.products
+                h1.main__section--title Productos
+                p.main__section--text Encuentre acá los productos que ofrecemos
+                section.layout
+                    section.layout__card
+                        img.layout__card--img(src="./assets/enganche-col.jpg", alt="Producto 1")
+                        h2.layout__card--title Enganche para auto
+                        p.layout__card--text Materiales de la mejor calidad, y excelente diseño. <br> 
+                            | Dependiendo el modelo, suelen ser colocados en el plazo de aprox. una hora
+                    section.layout__card
+                        img.layout__card--img(src="./assets/enganche.jpg", alt="Producto 1")
+                        h2.layout__card--title Enganche sin colocar
+                        p.layout__card--text Materiales de la mejor calidad, y excelente diseño.
+                    section.layout__card
+                        img.layout__card--img(src="./assets/no-image.jpg", alt="Producto 1")
+                        h2.layout__card--title Enganche para pick-up
+                        p.layout__card--text Materiales de la mejor calidad, y excelente diseño.
+                    section.layout__card
+                        img.layout__card--img(src="./assets/no-image.jpg", alt="Producto 1")
+                        h2.layout__card--title Enganche especial
+                        p.layout__card--text Materiales de la mejor calidad, y excelente diseño.
+                    section.layout__card
+                        img.layout__card--img(src="./assets/no-image.jpg", alt="Producto 1")
+                        h2.layout__card--title Otros trabajos de tornería
+                        p.layout__card--text Materiales de la mejor calidad, y excelente diseño.
+        include footerAndScripts.pug
